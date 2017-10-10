@@ -1,0 +1,51 @@
+/* Style for our header texts
+* --------------------------------------- */
+h1{
+    font-size: 4em;
+    font-family: arial,helvetica;
+    color: #000;
+    margin:0;
+}
+
+.intro {
+
+}
+
+.intro h1{
+    color: #000;
+}
+.intro p{
+    color: #000;
+}
+
+.intro img {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.titleBanner {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.titleBanner h1, .titleBanner p {
+  color: #fff;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+}
+
+#section0{
+  background-image: url(http://architectureimg.com/wp-content/uploads/2017/06/houses-country-cottage-frederika-grass-sky-flower-roof-house-home-thatch-wallpaper-for-desktop.jpg);
+  background-attachment: fixed;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
