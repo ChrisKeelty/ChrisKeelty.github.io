@@ -4,20 +4,19 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #e0e6e9; }
-
-h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600; }
+  body h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600; }
+  body h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400; }
 
 .jumbotron {
   background-image: url("../images/1054.JPG");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-bottom: 0px; }
-  .jumbotron h1 {
-    color: white;
-    font-weight: 800; }
+  margin-bottom: 0; }
 
 .services {
   padding: 50px; }
@@ -52,7 +51,7 @@ h1 {
     -webkit-box-flex: auto;
     -ms-flex: auto;
     flex: auto;
-    width: 200px;
+    width: 250px;
     margin: 0.5vw; }
   .gallery header div img {
     width: 100%;
@@ -68,6 +67,8 @@ h1 {
   padding: 50px; }
   .contact h1 {
     margin-bottom: 40px; }
+  .contact a {
+    color: white; }
 
 .center-con {
   display: flex;

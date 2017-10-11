@@ -3,13 +3,18 @@
 }
 
 body {
-font-family: 'Raleway', sans-serif;
-background-color: #e0e6e9;
-}
+  font-family: 'Raleway', sans-serif;
+  background-color: #e0e6e9;
 
-h1 {
-font-family: 'Raleway', sans-serif;
-font-weight: 600;
+  h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+  }
+  h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    }
+
 }
 
 .jumbotron {
@@ -17,16 +22,12 @@ font-weight: 600;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-bottom: 0px;
-
-  h1 {
-    color: white;
-    font-weight: 800;
-  }
+  margin-bottom: 0;
 }
 
 .services {
   padding: 50px;
+
   h1 {
     margin-bottom: 40px;
   }
@@ -39,19 +40,21 @@ font-weight: 600;
 
 .about {
   margin-bottom: 50px;
-padding: 50px;
+  padding: 50px;
   background-color: white;
+
   h1 {
     margin-bottom: 40px;
   }
 }
-
 // GALLERY
 .gallery {
   margin-bottom: 50px;
+
   h1 {
     margin-bottom: 40px;
   }
+
   header {
     padding: 0.5vw;
     font-size: 0;
@@ -68,7 +71,7 @@ padding: 50px;
     -webkit-box-flex: auto;
     -ms-flex: auto;
     flex: auto;
-    width: 200px;
+    width: 250px;
     margin: 0.5vw;
   }
 
@@ -94,78 +97,79 @@ padding: 50px;
   h1 {
     margin-bottom: 40px;
   }
+  a {
+    color: white;
+  }
 }
 
-
-
 .center-con {
-    display: flex;
-    // height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  // height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .round {
-    position: relative;
-    border: 3px solid #fff;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
+  position: relative;
+  border: 3px solid #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
 }
 
 span {
-    z-index: 999;
-    height: 3px;
-    margin:1px;
-    width: 30px;
-    background: #fff;
-    transition: 0.4s ease;
+  z-index: 999;
+  height: 3px;
+  margin: 1px;
+  width: 30px;
+  background: #fff;
+  transition: 0.4s ease;
 }
 
 span:first-child {
-    display: block;
-    position: absolute;
-    transform: rotate(45deg);
-    left: 17%;
-    bottom: 35%;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 17%;
+  bottom: 35%;
 }
 
 span:nth-child(2) {
-    display: block;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 43%;
-    bottom: 35%;
+  display: block;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 43%;
+  bottom: 35%;
 }
 
 span:nth-child(3) {
-    display: block;
-    position: absolute;
-    transform: rotate(45deg);
-    left: 17%;
-    bottom: 54%;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 17%;
+  bottom: 54%;
 }
 
 span:nth-child(4) {
-    display: block;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 43%;
-    bottom: 54%;
+  display: block;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 43%;
+  bottom: 54%;
 }
 
 .round:hover span:nth-child(1) {
-    transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .round:hover span:nth-child(2) {
-    transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .round:hover span:nth-child(3) {
-    transform: rotate(225deg);
+  transform: rotate(225deg);
 }
 
 .round:hover span:nth-child(4) {
-    transform: rotate(-225deg);
+  transform: rotate(-225deg);
 }
