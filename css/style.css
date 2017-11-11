@@ -6,7 +6,7 @@ body {
   background-color: #e0e6e9; }
   body h1 {
     font-family: 'Vollkorn SC', serif;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center; }
   body h4 {
     font-family: 'Vollkorn SC', serif;
@@ -32,10 +32,12 @@ body {
 .services {
   padding: 30px;
   background-color: white; }
+  .services .hr {
+    padding-bottom: 15px; }
   .services img {
     width: 100%; }
   .services h4 {
-    margin-top: 15px; }
+    margin: 15px 0 30px; }
 
 .testimonials {
   padding: 30px; }
@@ -43,14 +45,13 @@ body {
     font-weight: 600; }
 
 .about {
-  margin-bottom: 50px;
   padding: 30px;
   background-color: white; }
   .about .hr {
     padding-bottom: 20px; }
 
 .gallery {
-  margin-bottom: 50px; }
+  padding: 30px; }
   .gallery header {
     padding: 0.5vw;
     font-size: 0;
@@ -78,9 +79,12 @@ body {
 
 .contact {
   background-color: #595c5d;
-  padding: 50px; }
+  color: white;
+  padding: 30px; }
   .contact a {
-    color: white; }
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; }
 
 .center-con {
   display: flex;
