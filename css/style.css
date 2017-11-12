@@ -2,16 +2,17 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   background-color: #e0e6e9; }
   body h1 {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 5px; }
   body h4 {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 1.5em; }
+    font-size: 1.3em; }
   body .hr {
     display: block;
     height: 2px;
@@ -37,7 +38,7 @@ body {
   .services img {
     width: 100%; }
   .services h4 {
-    margin: 15px 0 30px; }
+    margin: 10px 0 30px; }
 
 .testimonials {
   padding: 30px; }
@@ -49,6 +50,8 @@ body {
   background-color: white; }
   .about .hr {
     padding-bottom: 20px; }
+  .about img {
+    margin-bottom: 10px; }
 
 .gallery {
   padding: 30px; }
@@ -82,9 +85,7 @@ body {
   color: white;
   padding: 30px; }
   .contact a {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400; }
+    color: white; }
 
 .center-con {
   display: flex;

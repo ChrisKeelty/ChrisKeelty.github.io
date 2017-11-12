@@ -3,19 +3,19 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   background-color: #e0e6e9;
 
   h1 {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
     text-align: center;
-
+    padding-bottom: 5px;
   }
   h4 {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.3em;
     }
   .hr {
     display: block;
@@ -46,10 +46,9 @@ body {
   }
   img {
     width: 100%;
-    // padding-bottom: 10px;
   }
   h4 {
-    margin: 15px 0 30px;
+    margin: 10px 0 30px;
   }
 }
 
@@ -66,6 +65,9 @@ body {
   background-color: white;
   .hr {
     padding-bottom: 20px;
+  }
+  img {
+    margin-bottom: 10px;
   }
 }
 // GALLERY
@@ -113,8 +115,6 @@ body {
   padding: 30px;
   a {
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
   }
 }
 
