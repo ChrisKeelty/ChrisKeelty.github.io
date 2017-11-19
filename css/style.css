@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -31,6 +32,24 @@ body {
   min-height: 100vh; }
   .jumbotron .logo {
     margin-bottom: 40px; }
+
+.mobileOnly {
+  display: none; }
+
+@media screen and (max-width: 480px) {
+  .mobileOnly {
+    display: inline-block;
+    text-align: center;
+    margin-top: -4.5em;
+    opacity: 0.8; }
+  .mobileOnly a {
+    color: #fff;
+    font-size: 3em; }
+  .mobileOnly a:hover {
+    background-color: #444; }
+  .mobileOnly§ a:active {
+    position: relative;
+    top: 1px; } }
 
 .services {
   padding: 30px;
